@@ -1,3 +1,3 @@
-const API_URL = "https://haunted-demon-94337.herokuapp.com/"
-const qw = "a";
+const API_URL = "http://localhost:5000/"
+
 export {API_URL}
