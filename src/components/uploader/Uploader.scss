@@ -1,0 +1,15 @@
+.uploader {
+    display: block;
+    right: 15px;
+    bottom: 15px;
+    top: auto;
+    left: auto;
+    max-width: 400px;
+    width: calc(100% - 30px);
+    max-height: 500px;
+    height: auto;
+    
+    &__dialog {
+        margin: 0;
+    }
+}

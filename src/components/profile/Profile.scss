@@ -1,0 +1,48 @@
+
+.profile {
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+    &-img {
+        width: 35px;
+        height: 35px;
+        &__img {
+            width: 100%;
+            color: #fff;
+            border-radius: 50%;
+            border: 1px solid #fff;
+        }
+    }
+    &-menu {
+        display: none;
+        position: absolute;
+        top: calc(100% + 10px);
+        right: 0;
+        background-color: #fff;
+        padding: 20px;
+        z-index: 10;
+        box-shadow: 0 0 3px rgba($color: #000000, $alpha: 0.5);
+        &--open {
+            display: block;
+        }
+        &__close {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            padding: 0px !important;
+        }
+        &__btn {
+            width: 100%;
+        }
+    }
+    &-upload {
+        visibility: hidden;
+        position: absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        position: absolute;
+    }
+}

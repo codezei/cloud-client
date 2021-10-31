@@ -1,0 +1,9 @@
+.upload-file {
+    &__name {
+        margin-bottom: 5px;
+    }
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+

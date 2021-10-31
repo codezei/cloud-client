@@ -1,0 +1,19 @@
+
+
+.file {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--bs-dark);
+    &__name {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: default;
+    }
+    &__actions {
+        display: none;
+    }
+    &:hover &__actions {
+        display: flex;
+        
+    }
+}

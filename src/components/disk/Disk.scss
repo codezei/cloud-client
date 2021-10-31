@@ -1,0 +1,71 @@
+.disk {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &__btn {
+        &-row {
+            margin-bottom: 25px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &--icon {
+            display: none;
+        }
+        @media screen and (max-width: 767px) {
+            &--icon {
+                display: block;
+            }
+            &--text {
+                display: none;
+            }
+        }
+        
+    }
+    &__input {
+        &-upload {
+            display: none;
+        }
+    }
+    &__form-select {
+        display: inline-block;
+        width: auto;
+    }
+    &__search {
+        width: auto;
+        &-input {
+            max-width: 140px;
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+        padding: 25px 0;
+        &__btn-upload {
+            margin-right: 0 !important;
+        }
+        &__form-select {
+            margin-right: 0 !important;
+            width: 100%;
+        }
+        &__search {
+            width: 100%;
+            &-input {
+                max-width: 100%;
+            }
+        }
+        
+    }
+
+}
+.drop-area {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &__inner {
+        border: 2px dashed grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: calc(100vh - 160px);
+        width: 100%;
+        max-height: 100%;
+    }
+}
